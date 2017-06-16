@@ -5,14 +5,14 @@
         "radio_0": {
             "enable": true,
             "type": "SX1257",
-            "freq": 868200000,
+            "freq": 922100000,
             "rssi_offset": -166.0,
             "tx_enable": true
         },
         "radio_1": {
             "enable": true,
             "type": "SX1257",
-            "freq": 869200000,
+            "freq": 922900000,
             "rssi_offset": -166.0,
             "tx_enable": false
         },
@@ -20,47 +20,47 @@
             /* Lora MAC channel, 125kHz, all SF, 868.1 MHz */
             "enable": true,
             "radio": 0,
-            "if": -100000
+            "if": -200000
         },
         "chan_multiSF_1": {
             /* Lora MAC channel, 125kHz, all SF, 868.3 MHz */
             "enable": true,
             "radio": 0,
-            "if": 100000
+            "if": 0
         },
         "chan_multiSF_2": {
             /* Lora MAC channel, 125kHz, all SF, 868.5 MHz */
             "enable": true,
             "radio": 0,
-            "if": 300000
+            "if": 200000
         },
         "chan_multiSF_3": {
             /* Lora MAC channel, 125kHz, all SF, 868.85 MHz */
             "enable": true,
-            "radio": 1,
-            "if": -350000
+            "radio": 0,
+            "if": 400000
         },
         "chan_multiSF_4": {
             /* Lora MAC channel, 125kHz, all SF, 869.05 MHz */
             "enable": true,
             "radio": 1,
-            "if": -150000
+            "if": -200000
         },
         "chan_multiSF_5": {
             /* Lora MAC channel, 125kHz, all SF, 869.525 MHz */
             "enable": true,
             "radio": 1,
-            "if": 325000
+            "if": 0
         },
         "chan_multiSF_6": {
-            "enable": false,
-            "radio": 0,
-            "if": 0
+            "enable": true,
+            "radio": 1,
+            "if": 200000
         },
         "chan_multiSF_7": {
-            "enable": false,
-            "radio": 0,
-            "if": 0
+            "enable": true,
+            "radio": 1,
+            "if": 400000
         },
         "chan_Lora_std": {
             /* Lora MAC channel, 250kHz, SF7, 868.3 MHz */
