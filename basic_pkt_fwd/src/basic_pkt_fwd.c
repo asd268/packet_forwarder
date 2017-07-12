@@ -185,7 +185,7 @@ void thread_down(void);
 #define DUMMY_IMME					"true" //
 #define DUMMY_FREQ					921.900000 
 #define DUMMY_RFCH					0         
-#define DUMMY_POWE					14
+#define DUMMY_POWE					27
 #define DUMMY_MODU					"LORA" 
 #define DUMMY_DATR					"SF7BW125" 
 #define DUMMY_CODR					"4/5"      
